@@ -1,0 +1,10 @@
+
+public class Foo {
+	private int i;
+	public void setI(int aux){ this.i = aux; }
+	public getI(){ return this.i; }
+	
+    public void foo(String[] args) {
+    	System.out.println("" + (args[0]) + "");
+    }
+}
